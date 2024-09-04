@@ -1,9 +1,7 @@
 public class Calculadora {
-    public int num1;
-    public int num2;
     public int resultado;
 
-    public Calculadora(int num1, int num2, int operacao){
+    public void Calcular(int num1, int num2, int operacao){
         switch(operacao){
             case 1:
                 resultado = num1 + num2;
